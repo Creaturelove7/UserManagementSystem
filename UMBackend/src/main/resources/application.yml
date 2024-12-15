@@ -8,5 +8,10 @@ datasource:
   username: root
   password: 15723375
 
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+
 server:
   port:8080
+

@@ -1,11 +1,11 @@
 package com.creaturelove.ucbackend.db.repository;
 
-import com.creaturelove.ucbackend.db.entity.User;
+import com.creaturelove.ucbackend.db.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, Integer> {
+public interface UserRepository extends JpaRepository<UserEntity, Integer> {
 
-    User findUserById(Integer id);
+    UserEntity findUserById(Integer id);
 
-    User findUserByUsername(String username);
+    UserEntity findUserByUsername(String username);
 } 

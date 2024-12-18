@@ -10,7 +10,12 @@ spring:
     init:
       mode: always
       schema-locations: "classpath:database-init.sql"
-
-
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23liWN6QmqOJL3bTjq
+            client-secret: c638fd3ed33385a9b8e646f2b41cc8c4d426a592
 server:
   port: 8080

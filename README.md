@@ -7,8 +7,9 @@ Features:
 4. User Search
 5. User Update
 6. User Delete
+7. User Authentication with JWT & OAuth2
 
 Tech:
 Frontend: React + Chakra UI
-Backend: SpringBoot + Mysql + Hibernates & JPA
+Backend: SpringBoot + Spring Security + OAuth2 + Mysql + Hibernates & JPA
 Deployment: Nginx + Linux + Docker
